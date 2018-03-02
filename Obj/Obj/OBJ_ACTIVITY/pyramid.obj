@@ -1,0 +1,34 @@
+# PYRAMID
+
+# VERTICES. Format:
+# v X Y Z
+
+v -1.0  0.0  1.0
+v  1.0  0.0  1.0
+v  1.0  0.0 -1.0
+v -1.0  0.0 -1.0
+v  0.0  1.4142 0
+
+# NORMALS. Format:
+# vn X Y Z
+
+vn  0  0  -1
+vn  0  2  2.8284
+vn 2.8284 2 0
+vn  0  2 -2.8284
+vn -2.8284 2 0
+
+# FACES. Format:
+# f VERTEX_INDEX/TEXTURE_INDEX/NORMAL_INDEX
+# >>>Indices start from 1.
+
+f 4//1 3//1 2//1
+f 4//1 2//1 1//1
+
+f 1//2 2//2 5//2
+
+f 2//3 3//3 5//3
+
+f 3//4 4//4 5//4
+
+f 4//5 1//5 5//5
